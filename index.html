@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Salvatore Paone</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;900&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="loader-wrapper">
+          <div id="loader"></div>
+          <div class="loader-section section-left"></div>
+          <div class="loader-section section-right"></div>
+        </div>
+        <div>
+            <nav class="site-nav grid">
+                <h1>Salvatore Paone</h1>
+                <ul class="site-nav__menu">
+                    <li><a href="#book">Book</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+                <div class="site-nav__hamburger">
+                    <img src="assets/hb.svg" alt="menu mobile">
+                </div>
+            </nav>
+        <section id="welcome" class="grid">
+            <div class="welcome__text">
+                <h2>Web Designer</h2>
+                <p class="leading">Sono diplomato in Grafica pubblicitaria e Fotografia presso l’ISA di
+                Firenze, laureato in Scienze della Comunicazione con una tesi in Psicologia
+                dell’Arte e della Letteratura sui videolinguaggi (bachelor) e in
+                Informatica per le discipline umanistiche (master) con una tesi sulla
+                Gipsoteca Libero Andreotti di Pescia, ho esperienza professionale
+                nell’ambito delle tecnologie della comunicazione come web designer e numerose
+                esperienze didattiche.</p>
+                <p>Studio il rapporto fra <span>Arte e tecnologia</span> e sono appassionato di <span>Digital Art</span> dilettandomi con <span>Krita</span> e <span>Procreate</span> a livello amatoriale</p>
+                <p>Svolgo costantemente attività di docenza presso enti pubblici e privati che si occupano di formazione e ricerca su tecnologie applicate alla didattica, informatica applicata ai beni culturali, sviluppo web, CMS e CRM.</p>
+            </div>
+            <div class="welcome__img">
+                    <img class="clipped" src="assets/profilo_n.jpg" alt="Foto Salvatore Paone">
+            </div>
+        </section>
+        <hr>
+        <section id="book" class="grid">
+            <div class="book__text">
+                <h2>Arte e tecnologia</h2>
+                <p class="leading">Oggetto di questo libro sono i diversi modi in cui le arti visive del XX secolo e le teorie estetiche ad esse correlate si sono poste in relazione agli sviluppi tecnologici comunicazionali e all'affermazione dei mass media. I mutamenti avvenuti nella produzione artistica contemporanea in rapporto alle innovazioni tecnologiche emergenti portano a porre una domanda di partenza: Com'è cambiata l'opera d'arte nell'era della virtualità e dell'interattività?</p>
+                <p>Il primo capitolo tratta il rapporto fra artisti e tecnologia. Il secondo capitolo espone i rapporti fra tecnologia e filosofia del ventesimo secolo partendo da <span>Martin Heidegger</span>, per poi soffermarsi maggiormente su <span>Theodor W. Adorno</span> e su <span>Walter Benjamin</span>. Il terzo capitolo tratta i neolinguaggi dell’era elettronica. L’ultimo capitolo presenterà alcune tematiche affrontate da uno dei maggiori artisti contemporanei: <span>Bill Viola</span>.</p>
+            </div>
+            <div class="book__img">
+                    <img src="assets/arte-e-tecnologia-paone.jpg" alt="Foto Salvatore Paone">
+            </div>
+        </section>
+
+                <section id="portfolio">
+                    <h2>Portfolio</h2>
+                    <div class="portfolio__projects grid">
+                        <a href="#">
+                            <img src="assets/andrea.jpg" class="clipped" alt="Progetto 1">
+                            <h4>KRITA su Surface Pro</h4>
+                        </a>
+
+                        <a href="#">
+                            <img src="assets/spiderman_n.jpg" class="clipped" alt="Progetto 2">
+                            <h4>Procreate su Ipad Pro</h4>
+                        </a>
+
+                        <a href="#">
+                            <img src="assets/devilman_n.jpg" class="clipped" alt="Progetto 3">
+                            <h4>Procreate su Ipad Pro</h4>
+                        </a>
+
+                    </div>
+
+                </section>
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul class="grid">
+                        <li>
+                            <img src="assets/html-5-logo-svgrepo-com.svg" alt="1">
+                            <h4>HTML5</h4>
+                        </li>
+                        <li>
+                            <img src="assets/css-3-logo-svgrepo-com.svg" alt="2">
+                            <h4>CSS3</h4>
+                        </li>
+                        <li>
+                            <img src="assets/javascript-logo-svgrepo-com.svg" alt="3">
+                            <h4>JavaScript</h4>
+                        </li>
+                        <li>
+                            <img src="assets/jquery-1-logo-svgrepo-com.svg" alt="4">
+                            <h4>jQuery</h4>
+                        </li>
+                    </ul>
+                </section>
+                <footer>
+                    <div class="grid">
+                        <p class="copyright">Salvatore Paone - 2020</p>
+                        <ul class="social">
+                            <li><a href="https://www.linkedin.com/in/stranilivelli/">Linkedin</a></li>
+                            <li><a href="https://twitter.com/stranilivelli">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/stranilivelli/">Instagram</a></li>
+                        </ul>
+                    </div>
+                </footer>
+                </div>
+                <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+                   <script type="text/javascript">
+                      /* Open Panel */
+                      $( ".site-nav__hamburger" ).on('click', function() {
+                        $(".site-nav__menu").toggleClass("site-nav__menu--open");
+                      });
+                   </script>
+                <script src="js/scripts.js"></script>
+
+                   </script>
+    </body>
+</html>
