@@ -98,7 +98,7 @@ p span{
 }
 
 .site-nav__menu li{
-    font-size: 1em;
+    font-size: 1.8em;
     text-align: right;
 }
 .site-nav__menu--open{
@@ -375,8 +375,10 @@ footer img{
         justify-content: space-evenly;
         align-self: center;
     }
+
     .site-nav__menu li{
-        margin-left: 15px;
+        font-size: 1.1em;
+        margin-left: 10px;
     }
     .site-nav__hamburger{
         display: none;
